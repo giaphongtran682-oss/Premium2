@@ -1,0 +1,22 @@
+THE CHRISTMAS HOUSE — SIGNATURE EDITION 2026
+
+CÀI ĐẶT
+1. Giải nén toàn bộ ZIP vào thư mục website trên hosting.
+2. Giữ nguyên index.html, admin.html, các ảnh JPG/PNG và thư mục music.
+3. Nhạc nền nguyên bản đã được tích hợp sẵn tại music/noel.mp3 (80 giây, vòng lặp). Không cần tải thêm MP3.
+4. Trên iPhone/Android, trình duyệt chỉ cho phép phát nhạc sau thao tác chạm. Nút “Bước vào mùa phép màu” sẽ mở trải nghiệm và khởi chạy nhạc.
+5. Nút nhạc góc phải dưới cho phép tạm dừng, chỉnh âm lượng hoặc thay bằng MP3 của cửa hàng.
+
+ÂM THANH
+- Nhạc “Winter Waltz” là bản instrumental nguyên bản được tạo riêng cho website, không lấy từ bài hát thương mại.
+- Chuông chào mừng và chuông đặt đơn thành công được tổng hợp bằng Web Audio.
+- Không có giọng đọc/giọng cười.
+
+DỮ LIỆU VÀ QUẢN TRỊ
+- admin.html và cấu hình Supabase hiện có được giữ nguyên.
+- Các chức năng tải danh mục, giỏ quà, đặt lịch, tra cứu đơn, Realtime và liên hệ cửa hàng vẫn dùng logic hiện tại.
+- Nên triển khai staging trước, kiểm thử đặt đơn/tra cứu và xác nhận cấu hình Supabase trên hosting thực tế.
+
+LƯU Ý
+- Nhạc MP3 được lưu cục bộ trong gói website; không phụ thuộc dịch vụ stream bên ngoài.
+- Tự động phát âm thanh trước tương tác bị trình duyệt chặn; đây là chính sách của Safari/Chrome, không thể bỏ qua bằng mã website.
